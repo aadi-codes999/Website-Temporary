@@ -14,19 +14,48 @@
     </h1>
     <br>
     <br>
-    <div>
+    <div class="login box">
+
         <form action="">
-            <input type="text" placeholder="Enter your name">
+            <h2>Login...</h2>
+            <input type="text" placeholder="Enter your username" required>
             <br>
-            <input type="radio" name=gender value=Male>Male</input>
-            <input type="radio" name=gender value=Female>Female</input>
             <br>
-            <input type="number" placeholder="Phone No">
+            <input type="email" placeholder="Enter your Email ID" required>
+            <br>
+            <br>
+            <input type="number" placeholder="Phone Number" required>
+            <br>
+            <br>
+            <input type="password" placeholder="Enter your password" required>
+            <br>
+            <br>
+            <label for="radio">Gender:
+                <input type="radio" name=gender value=Male required>Male</input>
+                <input type="radio" name=gender value=Female required>Female</input>
+            </label>
+            <br>
+            <br>
+            <label for="date">DOB: </label>
+            <input type="date" name="Date of Birth" required>
+                <br>
+                <br>
+
+            <input type="checkbox" required>
+        I have read and agree to the
+        <a href="terms.html" target="_blank">Terms and Conditions</a>
+        and
+        <a href="privacy.html" target="_blank">Privacy Policy</a>.
+        <br>
+        <br>
+        <button type="submit" name="Submit">Login</button>
         </form>
     </div>
 </body>
 <footer>
-
+    <h3>
+        Github: <a href="github" rel="https://github.com/aadi-codes999/Website-Temporary">aadi-codes999</a>
+    </h3>
 </footer>
 
 </html>
